@@ -1,0 +1,11 @@
+.center {
+    padding-left: 35%;
+    padding-top: 20%;
+    margin-top: 20%;
+  }
+  
+  body {background-color: coral;}
+
+.inner {
+    padding-left: 35%;
+}

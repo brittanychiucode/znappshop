@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/alpha.css">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+        <!-- <link href="css/material.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+        <style>
+            body {
+              background-color: gray;
+            }
+        </style>
+        <title>Znapp Shop</title>
+    </head>
+    <body>
+        <div class="jumbotron shadow-lg p-3 mb-5 bg-white rounded center">
+            <div class="inner">
+                <h1>Alpha Access</h1>
+                <form name="login">
+                    Username<input type="text" name="userid"/>
+                    Password<input type="password" name="pswrd"/>
+                    <input type="button" onclick="check(this.form)" value="Login"/>
+                </form>
+                <script language="javascript">
+                    function check(form) { /*function to check userid & password*/
+                        /*the following code checkes whether the entered userid and password are matching*/
+                        if(form.userid.value == "admin" && form.pswrd.value == "wearepennstate") {
+                            window.open('index.html')/*opens the target page while Id & password matches*/
+                        }
+                        else {
+                            alert("Error Password or Username")/*displays error message*/
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
