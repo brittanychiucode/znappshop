@@ -1,0 +1,92 @@
+.logo {
+    padding-top: 5px;
+    padding-left: 65%;
+    white-space: nowrap;
+}
+
+.top {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.search {
+    padding-top: 5px;
+    padding-left: 30%;
+    white-space: nowrap;
+}
+
+.filters {
+    padding-top: 10px;
+}
+
+.checked {
+    color: orange;
+}
+
+.item-box {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.search-results{
+    padding-top: 10px;
+}
+
+.item-image-box {
+    height: 200px;
+    width: 200px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.item-image {
+    text-align: center; 
+    vertical-align: middle;
+    
+    max-width:100%;
+    max-height:100%;
+}
+
+.cart {
+    border-left: 1px solid gray;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+  
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+#lblCartCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+}
+
+.points {
+    max-width: 500px;
+    float: left;
+}
+
+.cart-icon {
+    max-width:100px;
+    display: inline-block;
+    float: right;
+    justify-content: right;
+
+}
+
+.footer{
+    margin-top: 5%;
+}
